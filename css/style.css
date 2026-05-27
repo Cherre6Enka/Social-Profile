@@ -170,7 +170,7 @@ body {
   color: #333333ff;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 400px) {
   .body {
     display: flex;
     justify-content: center;
@@ -183,5 +183,13 @@ body {
     width: 75%;
     margin: 20px;
     padding: 30px;
+  }
+
+  .GitHub,
+  .FrontendMentor,
+  .LinkedIn,
+  .Twitter,
+  .Instagram {
+    margin-left: -5px;
   }
 }
