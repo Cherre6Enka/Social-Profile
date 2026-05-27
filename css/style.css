@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("/fonts/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("/fonts/Inter-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("/fonts/Inter-SemiBold.ttf") format("truetype");
+}
+body {
+  background-color: #141414ff;
+  margin: 0px;
+  padding: 0px;
+}
+
+.profile-container {
+  background-color: #1f1f1fff;
+  width: 325px;
+  height: 550px;
+  margin: 140px auto;
+  border-radius: 15px;
+  padding: 40px 30px 30px 30px;
+}
+
+.profile-image {
+  background-color: #1f1f1fff;
+  background-image: url("/images/avatar-jessica.jpeg");
+  background-size: cover;
+  background-position: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-name h1 {
+  color: #ffffff;
+  font-family: "Inter-Regular";
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
+.profile-name p {
+  color: #c5f82aff;
+  font-family: "Inter-SemiBold";
+  font-size: 13px;
+  text-align: center;
+}
+
+.profile-text {
+  color: #ffffff;
+  font-family: "Inter-Regular";
+  font-size: 13px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.social-links {
+  color: #ffffff;
+  font-family: "Inter-Bold";
+  font-size: 13px;
+  text-align: center;
+  padding-top: 12.5px;
+}
+
+.GitHub {
+  background-color: #333333ff;
+  width: 305px;
+  height: 45px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.GitHub:hover {
+  background: #c5f82aff;
+  color: #333333ff;
+}
+
+.FrontendMentor {
+  background-color: #333333ff;
+  width: 305px;
+  height: 45px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.FrontendMentor:hover {
+  background: #c5f82aff;
+  color: #333333ff;
+}
+
+.LinkedIn {
+  background-color: #333333ff;
+  width: 305px;
+  height: 45px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.LinkedIn:hover {
+  background: #c5f82aff;
+  color: #333333ff;
+}
+
+.Twitter {
+  background-color: #333333ff;
+  width: 305px;
+  height: 45px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Twitter:hover {
+  background: #c5f82aff;
+  color: #333333ff;
+}
+
+.Instagram {
+  background-color: #333333ff;
+  width: 305px;
+  height: 45px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.Instagram:hover {
+  background: #c5f82aff;
+  color: #333333ff;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    margin-top: 200px;
+  }
+}
